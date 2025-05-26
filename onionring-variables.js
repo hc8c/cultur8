@@ -24,7 +24,7 @@ var ringID = 'cultur8-webring';
 //should the widget include a link to an index page?
 var useIndex = false;
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = 'https://example.com/index.html';
+var indexPage = 'https://hc8c.github.io/index/';
 
 //should the widget include a random button?
 var useRandom = true;
