@@ -11,7 +11,7 @@
   --page-bg: #f5d6ba;
   --secondary-heading: #2c2c54;
   --text-color: #444444;
-  --divider: 3px solid #a40e4c;
+  --divider: 1px solid #a40e4c;
 }
 
 body {
@@ -34,11 +34,16 @@ main li {
   color: var(--text-color);
 }
 
-#bar {
+.bar {
   margin: 1rem auto;
   width: 30%;
   min-width: 300px;
   border-top: 5px solid #a40e4c;
+}
+
+.bar:not(:first-of-type) {
+  border-top: none;
+  border-bottom: 5px solid red;
 }
 
 nav {
