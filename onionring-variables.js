@@ -8,9 +8,6 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://www.thehaughtyculturist.com/',
-'https://example.com/',
-'https://example.com/',
-'https://example.com/'
 ];
 
 //the name of the ring
