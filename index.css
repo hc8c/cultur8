@@ -6,20 +6,94 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 16px;
+  --page-bg: #f5d6ba;
+  --secondary-heading: #2c2c54;
+  --text-color: #444444;
+  --divider: 3px solid #a40e4c;
+}
+
+body {
+  background-color: var(--page-bg);
+}
+
 main {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
   padding: 2rem;
   line-height: 2;
+}
+
+main p,
+main h1,
+main h2,
+main h3,
+main li {
+  color: var(--text-color);
+}
+
+#bar {
+  margin: 1rem auto;
+  width: 30%;
+  min-width: 300px;
+  border-top: 5px solid #a40e4c;
+}
+
+nav {
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+}
+
+nav a {
+  background-color: #acc3a6;
+  border: none;
+  color: var(--text-color);
+  padding: 2px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 16px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #a40e4c;
+  color: white;
 }
 
 main h1 {
   text-align: center;
   text-transform: uppercase;
+  font-size: 3rem;
 }
 
 main #site-desc {
   text-align: center;
-  font-style: italic;
   font-weight: 600;
+  font-size: 0.9rem;
+}
+
+main h2 {
+  font-size: 1.2rem;
+  color: var(--secondary-heading);
+}
+
+main h3 {
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: var(--secondary-heading);
+  margin-bottom: 0.5rem;
+}
+
+main p:not(:first-of-type) {
+  margin-top: 1rem;
 }
 
 main ul {
@@ -28,4 +102,22 @@ main ul {
 
 main section {
   margin-top: 2rem;
+}
+
+main section:not(:first-of-type) {
+  border-top: var(--divider);
+  padding-top: 1rem;
+}
+
+#credit {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-width: 500px;
+  border: 2px solid steelblue;
+  box-shadow: 5px 5px 5px var(--secondary-heading);
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
 }
