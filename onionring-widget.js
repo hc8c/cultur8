@@ -33,7 +33,7 @@ if (thisIndex == null) {
     `
 <table>
   <tr>
-    <td>This site isn't part of the ${ringName} webring yet. You should talk to the manager to have your site added to the list!</td>
+    <td>This site isn't part of the ${ringName} webchain yet. You should talk to the manager to have your site added to the list!</td>
   </tr>
 </table>
   `
@@ -64,7 +64,7 @@ if (thisIndex == null) {
   <table>
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>← previous</a></td>
-      <td class='webring-info'>This site is part of the ${ringName} webring</br>
+      <td class='webring-info'>This site is part of the ${ringName} webchain</br>
       <span class='webring-links'>
         ${randomText}
         ${indexText}
