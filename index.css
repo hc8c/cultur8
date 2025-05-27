@@ -26,6 +26,11 @@ main {
   line-height: 2;
 }
 
+main h2,
+main h3 {
+  text-transform: uppercase;
+}
+
 main p,
 main h1,
 main h2,
@@ -56,21 +61,17 @@ nav {
 }
 
 nav a {
-  background-color: #acc3a6;
   border: none;
   color: var(--text-color);
-  padding: 2px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   cursor: pointer;
   border-radius: 16px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #a40e4c;
-  color: white;
+  text-decoration: underline;
+  color: #a40e4c;
 }
 
 main h1 {

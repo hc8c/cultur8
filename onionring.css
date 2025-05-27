@@ -11,7 +11,7 @@
 }
 
 #FliteratiWebChain {
-  margin: 0 auto;
+  margin: 1rem auto;
   padding: 0.3rem; /* creates some space around the widget */
   border: 1px solid black;
   border-radius: 5px;

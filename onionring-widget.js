@@ -64,7 +64,7 @@ if (thisIndex == null) {
   <table>
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>← previous</a></td>
-      <td class='webring-info'>This site is part of the ${ringName} human web project</br>
+      <td class='webring-info'>Browse the ${ringName} web chain</br>
       <span class='webring-links'>
         ${randomText}
         ${indexText}
