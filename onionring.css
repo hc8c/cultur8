@@ -12,7 +12,12 @@
 
 #FliteratiWebChain {
   margin: 0 auto;
-  padding: 15px; /* creates some space around the widget */
+  padding: 0.3rem; /* creates some space around the widget */
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #FliteratiWebChain table {
