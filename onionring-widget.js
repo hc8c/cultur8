@@ -64,11 +64,11 @@ if (thisIndex == null) {
   <table>
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>← previous</a></td>
-      <td class='webring-info'>This site is part of the ${ringName} webchain</br>
+      <td class='webring-info'>This site is part of the ${ringName} human web project</br>
       <span class='webring-links'>
         ${randomText}
         ${indexText}
-        <a href='https://hc8c.github.io/fliterati/'>Add or suggest a site</a></span></td>
+        <a href='https://hc8c.github.io/fliterati/'>suggest a site</a></span></td>
       <td class='webring-next'><a href='${sites[nextIndex]}'>next →</a></td>
     </tr>
   </table>
