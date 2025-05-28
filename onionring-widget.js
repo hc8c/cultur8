@@ -30,13 +30,7 @@ function randomSite() {
 if (thisIndex == null) {
   tag.insertAdjacentHTML(
     "afterbegin",
-    `
-<table>
-  <tr>
-    <td>This site isn't part of the ${ringName} webchain yet. You should talk to the manager to have your site added to the list!</td>
-  </tr>
-</table>
-  `
+    `About the <a href="https://hc8c.github.io/fliterati/">${ringName} web chain</a>.`
   )
 } else {
   //find the 'next' and 'previous' sites in the ring. this code looks complex
@@ -61,7 +55,7 @@ if (thisIndex == null) {
   tag.insertAdjacentHTML(
     "afterbegin",
     `
-    <div id="flitteratiWidget">
+    <div id="fliteratiWidget">
     <a href='${sites[previousIndex]}'>← prev</a> | <a href="https://hc8c.github.io/fliterati/">${ringName} web chain</a> | ${randomText} | <a href='${sites[nextIndex]}'>next →</a>
     </div>
   `
