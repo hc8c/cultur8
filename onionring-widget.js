@@ -54,7 +54,7 @@ if (thisIndex == null) {
   randomText = ""
   //if you've chosen to include a random button, this builds the link that does that
   if (useRandom) {
-    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>random</a> | `
+    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>random</a>`
   }
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
