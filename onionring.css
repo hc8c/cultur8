@@ -5,19 +5,9 @@
 /* === ONIONRING.CSS === */
 /* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
-#widget-desc {
-  width: 100%;
-  text-align: center;
-}
-
 #FliteratiWebChain {
-  margin: 1rem auto;
-  padding: 0.3rem; /* creates some space around the widget */
-  border: 1px solid black;
-  border-radius: 5px;
-  box-shadow: 5px 5px;
-  display: flex;
-  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 15px; /* creates some space around the widget */
 }
 
 #FliteratiWebChain table {

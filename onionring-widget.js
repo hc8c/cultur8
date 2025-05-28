@@ -61,17 +61,9 @@ if (thisIndex == null) {
   tag.insertAdjacentHTML(
     "afterbegin",
     `
-  <table>
-    <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>← previous</a></td>
-      <td class='webring-info'>Browse the ${ringName} web chain</br>
-      <span class='webring-links'>
-        ${randomText}
-        ${indexText}
-        <a href='https://hc8c.github.io/fliterati/'>suggest a site</a></span></td>
-      <td class='webring-next'><a href='${sites[nextIndex]}'>next →</a></td>
-    </tr>
-  </table>
+    <div id="flitteratiWidget">
+    <a href='${sites[previousIndex]}'>← prev</a> | <a href="https://hc8c.github.io/fliterati/">${ringName} web chain</a> | ${randomText} | <a href='${sites[nextIndex]}'>next →</a>
+    </div>
   `
   )
 }
