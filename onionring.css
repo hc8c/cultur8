@@ -8,6 +8,8 @@
 #FliteratiWebChain {
   margin: 0 auto;
   padding: 15px; /* creates some space around the widget */
+  display: flex;
+  justify-content: center;
 }
 
 #FliteratiWebChain .webring-prev {

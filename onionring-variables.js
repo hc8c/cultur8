@@ -5,21 +5,24 @@
 // === ONIONRING-VARIABLES ===
 //this file contains the stuff you edit to set up your specific webring
 
+import { siteList } from "./sitelist.js"
+
 //the full URLs of all the sites in the ring
-var sites = ["https://www.thehaughtyculturist.com/"]
+const sites = []
+siteList.forEach((site) => currentSites.push(site["siteUrl"]))
 
 //the name of the ring
-var ringName = "Fliterati"
+const ringName = "Fliterati"
 
 /* the unique ID of the widget. two things to note:
  1) make sure there are no spaces in it - use dashes or underscores if you must
  2) remember to change 'webringid' in the widget code you give out and all instances of '#webringid' in the css file to match this value!*/
-var ringID = "FliteratiWebChain"
+const ringID = "FliteratiWebChain"
 
 //should the widget include a link to an index page?
-var useIndex = true
+const useIndex = true
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = "https://hc8c.github.io/fliterati/"
+const indexPage = "https://hc8c.github.io/fliterati/"
 
 //should the widget include a random button?
-var useRandom = true
+const useRandom = true
