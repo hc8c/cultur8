@@ -6,9 +6,7 @@
 //this file contains the stuff you edit to set up your specific webring
 
 //the full URLs of all the sites in the ring
-var sites = []
-siteList.forEach((site) => sites.push(site.siteUrl))
-console.log(sites)
+var sites = ["https://www.thehaughtyculturist.com"]
 
 //the name of the ring
 var ringName = "Fliterati"
