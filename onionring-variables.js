@@ -9,7 +9,7 @@ import { siteList } from "./sitelist.js"
 
 //the full URLs of all the sites in the ring
 const sites = []
-siteList.forEach((site) => currentSites.push(site["siteUrl"]))
+siteList.forEach((site) => sites.push(site["siteUrl"]))
 
 //the name of the ring
 const ringName = "Fliterati"
