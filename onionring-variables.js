@@ -5,10 +5,10 @@
 // === ONIONRING-VARIABLES ===
 //this file contains the stuff you edit to set up your specific webring
 
-import { siteList } from "./sitelist.js"
-
 //the full URLs of all the sites in the ring
-var sites = ["https://www.thehaughtyculturist.com/"]
+var sites = []
+siteList.forEach((site) => sites.push(site.siteUrl))
+console.log(sites)
 
 //the name of the ring
 var ringName = "Fliterati"
