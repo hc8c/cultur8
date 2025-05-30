@@ -12,3 +12,5 @@ Here's a quick overview of the process. For details, incuding critera and rules,
 - Want to report broken links? Please click on "Issues" above to submit a report.
 ## About me
 I write and run www.thehaughtyculturist.com. I made this project to connect with other sites in my niche (culture commentary!), and to help keep interesting, human-written content discoverable on a web that's increasingly dominated by product, ad and AI-driven algorithms.
+## Tech credit
+This webring widget - i.e., the shared navigation for member sites - is based on [onionring.js](https://garlic.garden/onionring/) under the cooperative non-violent license (CNPL) v7+.
